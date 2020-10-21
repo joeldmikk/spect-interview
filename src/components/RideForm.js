@@ -58,7 +58,7 @@ const RideForm = () => {
         <div>
             <form>
                 <label>
-                    Ride Times: 
+                    Ride Times (in minutes): 
                     <input type="text" name="rideTimes" onChange={(e) => setRideTimes(e.target.value)} />
                 </label>
                 <input type="submit" value="Assign Drivers" onClick={(e) => calculateDrivers(e)} />
