@@ -23,7 +23,6 @@ const RideForm = () => {
         const rideTime = rideDuration + restTime;
         // base case; recursion complete
         if (times.length === 0) {
-            console.log(d);
             return d;
         }
 
